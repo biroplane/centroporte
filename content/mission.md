@@ -1,8 +1,0 @@
-# Mission
-=======
-
-L’azienda CENTRO PORTE E FINESTRE vanta un esperienza tramandata di generazioni  in generazioni,nasce da un laboratorio di falegnameria dedito alla realizzazione di arredamento su misura. Ricorreva l’anno 2009 quando ha ampliato il suo servizio aprendo lo showroom, specializzandosi nella fornitura e installazione di infissi, porte e articoli ad esso correlati . L’azienda non si è mai fermata, anno dopo anno ha ampliato i suoi orizzonti sviluppandosi e migliorandosi per dare un servizio altamente qualificato al cliente .
-
-Ogni anno è in continuo aggiornamento, partecipando a vari corsi di specializzazione come quelli di montaggio tecnico, di informazione sulle varie tipologie di prodotti, di marketing e vendita, infine conseguimento di patentini  per la “POSA QUALIFICATA DI INFISSI A RISPARMIO ENERGETICO”. Sempre alla ricerca dell’innovazione di prodotti all’avanguardia, in modo da poter soffisfare al meglio un target di clientela medio-alta attenta ad ogni particolare tecnico, funzionale e quantitativo e allo stesso tempo al meglio che offre il mercato . Proponiamo infissi in legno e legno /alluminio di cui siamo rivenditori autorizzati “Delfino infissi”, pvc “Qfort”, porte blindate dove siamo patner “Stark Sicurezza” e “M.Italia “, vetrate “Visioni”, porte in legno “Gruppo AIP,  Solo Legno” e “ARLEM”,porte in laminato “TRIX” E “GP  porte”, persiane in alluminio, blindate, in legno, tapparelle motorizzate, zanzariere “MV Line “, “Somfy”, portoni sezionali per garage, coperture fisse, mobili, vetrate panoramiche, recinzioni  paravento “PROTEZIONI”.
-
-Il nostro motto è “memento audere semper”, “ricordati di osare sempre”, cioè mai fermarsi ma imparare, conoscere e sperimentare sempre.

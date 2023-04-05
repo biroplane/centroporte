@@ -1,64 +1,27 @@
-@font-face {
-  font-family: 'Morganite';
-  font-style: italic;
-  font-weight: 300;
-  src: url('../fonts/morganite/Morganite-LightItalic.ttf')
-}
+/*
+100: Thin
+200: Extra Light
+300: Light
+400: Book
+500: Medium
+600: Semi Bold
+700: Bold
+800: Black
+900: Extra Bold
+*/
 
 @font-face {
   font-family: 'Morganite';
   font-style: normal;
-  font-weight: 800;
-  src: url('../fonts/morganite/Morganite-Black.ttf')
+  font-weight: 100;
+  src: url('../fonts/morganite/Morganite-Thin.ttf')
 }
 
 @font-face {
   font-family: 'Morganite';
   font-style: italic;
-  font-weight: 800;
-  src: url('../fonts/morganite/Morganite-BlackItalic.ttf')
-}
-
-@font-face {
-  font-family: 'Morganite';
-  font-style: normal;
-  font-weight: 700;
-  src: url('../fonts/morganite/Morganite-Bold.ttf')
-}
-
-@font-face {
-  font-family: 'Morganite';
-  font-style: italic;
-  font-weight: 700;
-  src: url('../fonts/morganite/Morganite-BoldItalic.ttf')
-}
-
-@font-face {
-  font-family: 'Morganite';
-  font-style: normal;
-  font-weight: normal;
-  src: url('../fonts/morganite/Morganite-Book.ttf')
-}
-
-@font-face {
-  font-family: 'Morganite';
-  font-style: italic;
-  font-weight: normal;
-  src: url('../fonts/morganite/Morganite-BookItalic.ttf')
-}
-
-@font-face {
-  font-family: 'Morganite';
-  font-style: normal;
-  font-weight: 900;
-  src: url('../fonts/morganite/Morganite-ExtraBold.ttf')
-}
-
-@font-face {
-  font-family: 'Morganite';
-  font-style: italic;
-  font-weight: 900;
-  src: url('../fonts/morganite/Morganite-ExtraBoldItalic.ttf')
+  font-weight: 100;
+  src: url('../fonts/morganite/Morganite-ThinItalic.ttf')
 }
 
 @font-face {
@@ -80,6 +43,27 @@
   font-style: normal;
   font-weight: 300;
   src: url('../fonts/morganite/Morganite-Light.ttf')
+}
+
+@font-face {
+  font-family: 'Morganite';
+  font-style: italic;
+  font-weight: 300;
+  src: url('../fonts/morganite/Morganite-LightItalic.ttf')
+}
+
+@font-face {
+  font-family: 'Morganite';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/morganite/Morganite-Book.ttf')
+}
+
+@font-face {
+  font-family: 'Morganite';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/morganite/Morganite-BookItalic.ttf')
 }
 
 @font-face {
@@ -113,13 +97,43 @@
 @font-face {
   font-family: 'Morganite';
   font-style: normal;
-  font-weight: 100;
-  src: url('../fonts/morganite/Morganite-Thin.ttf')
+  font-weight: 700;
+  src: url('../fonts/morganite/Morganite-Bold.ttf')
+}
+
+
+@font-face {
+  font-family: 'Morganite';
+  font-style: italic;
+  font-weight: 700;
+  src: url('../fonts/morganite/Morganite-BoldItalic.ttf')
+}
+
+@font-face {
+  font-family: 'Morganite';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/morganite/Morganite-Black.ttf')
 }
 
 @font-face {
   font-family: 'Morganite';
   font-style: italic;
-  font-weight: 100;
-  src: url('../fonts/morganite/Morganite-ThinItalic.ttf')
+  font-weight: 800;
+  src: url('../fonts/morganite/Morganite-BlackItalic.ttf')
+}
+
+
+@font-face {
+  font-family: 'Morganite';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/morganite/Morganite-ExtraBold.ttf')
+}
+
+@font-face {
+  font-family: 'Morganite';
+  font-style: italic;
+  font-weight: 900;
+  src: url('../fonts/morganite/Morganite-ExtraBoldItalic.ttf')
 }

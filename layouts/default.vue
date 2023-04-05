@@ -1,8 +1,11 @@
 <template>
-  <main>
+  <div class="flex flex-col">
     <AppHeader />
-    <app-hero />
-    <slot></slot>
-  </main>
+    <main class="">
+      <div class="h-16"></div>
+      <slot></slot>
+    </main>
+    <AppFooter />
+  </div>
 </template>
-<style lang="postcss"></style>
+<style lang="postcss" scoped></style>

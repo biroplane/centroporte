@@ -1,13 +1,21 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  ssr: false,
+  ssr: true,
   nitro: {
     preset: "netlify",
+  },
+  app: {
+    pageTransition: {
+      name: "slide-up",
+      mode: "in-out",
+    },
   },
   modules: [
     "@nuxt/content",
     "@nuxt/image-edge",
+    "@nuxtjs/tailwindcss",
     "@nuxtjs/i18n",
+    "nuxt-icon",
     [
       "@pinia/nuxt",
       {
@@ -22,10 +30,10 @@ export default defineNuxtConfig({
   ],
   i18n: {
     locales: [
-      { code: "en", iso: "en-US", file: "en.js" },
-      { code: "it", iso: "it-IT", file: "it.js" },
+      { code: "en", iso: "en-US", file: "en.js", flag: "it" },
+      { code: "it", iso: "it-IT", file: "it.js", flag: "en" },
     ],
-    defaultLocale: "en",
+    defaultLocale: "it",
     strategy: "no_prefix",
     vueI18n: {
       fallbackLocale: "en",
@@ -42,7 +50,11 @@ export default defineNuxtConfig({
   content: {
     documentDriven: true,
   },
-  css: ["~/assets/css/main.css", "~/assets/css/morganite.css"],
+  css: [
+    "~/assets/css/main.pcss",
+    "~/assets/css/morganite.css",
+    "~/assets/css/transitions.css",
+  ],
   postcss: {
     plugins: {
       "tailwindcss/nesting": {},

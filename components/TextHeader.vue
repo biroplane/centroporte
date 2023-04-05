@@ -15,14 +15,32 @@ const style = computed(() => props.level + "rem");
     :is="h"
     class="font-head fat mesh text-transparent bg-clip-text"
     :class="{ 'font-black': level <= 2 }"
+    v-bind="$attrs"
   >
     <slot></slot>
   </component>
 </template>
+<!-- @vue-ignore-->
 <style lang="postcss" scoped>
 .fat {
-  font-size: calc(8rem - v-bind("style"));
-  line-height: calc(7rem - v-bind("style"));
+  font-size: calc(5rem - v-bind("style"));
+  line-height: calc(4.8rem - v-bind("style"));
   @apply uppercase;
+}
+@media screen(md) {
+  .fat {
+    font-size: calc(6rem - v-bind("style"));
+    line-height: calc(5.75rem - v-bind("style"));
+    @apply uppercase;
+  }
+}
+@media screen(lg) {
+  .fat {
+    font-size: calc(8rem - v-bind("style"));
+    line-height: calc(7.75rem - v-bind("style"));
+    @apply uppercase;
+  }
+}
+@media screen {
 }
 </style>

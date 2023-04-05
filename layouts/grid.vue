@@ -1,8 +1,9 @@
 <template>
-  <main>
-    <AppHeader />
+  <div class="">
     <app-hero />
-    <slot></slot>
-  </main>
+    <main>
+      <slot></slot>
+    </main>
+  </div>
 </template>
 <style lang="postcss"></style>
