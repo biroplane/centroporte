@@ -13,7 +13,7 @@ const style = computed(() => props.level + "rem");
 <template>
   <component
     :is="h"
-    class="font-head fat mesh text-transparent bg-clip-text"
+    class="text-transparent font-head fat mesh bg-clip-text"
     :class="{ 'font-black': level <= 2 }"
     v-bind="$attrs"
   >

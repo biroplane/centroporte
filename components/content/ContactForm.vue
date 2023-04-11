@@ -1,4 +1,14 @@
 <script setup>
+defineProps({
+  showMap: {
+    type: Boolean,
+    default: true,
+  },
+  title: {
+    type: String,
+    default: "",
+  },
+});
 const form = reactive({
   name: "",
   email: "",
@@ -7,10 +17,11 @@ const form = reactive({
 </script>
 <template>
   <div class="grid md:grid-cols-5 contact-form">
-    <div class="order-last md:order-first md:col-span-2">
+    <div v-if="showMap" class="order-last md:order-first md:col-span-2">
       <Map></Map>
     </div>
     <div class="md:col-span-3">
+      {{ title }}
       <form name="contact" netlify>
         <label>
           <span>Nome</span>
@@ -29,7 +40,7 @@ const form = reactive({
           <span>Messaggio</span>
           <textarea v-model="form.message" required></textarea>
         </label>
-        <button to="#" class="text-white bg-primary">Invia</button>
+        <button to="#" class="text-primary-900 bg-primary">Invia</button>
       </form>
     </div>
   </div>
@@ -73,10 +84,30 @@ const form = reactive({
       }
     }
     button {
-      @apply px-8 py-1 text-white bg-primary;
+      @apply px-8 py-1 text-primary-800 bg-primary hover:bg-primary-600 transition-colors;
     }
     &:invalid button {
       @apply cursor-not-allowed opacity-30;
+    }
+  }
+  label:focus-within:after {
+    position: absolute;
+    content: "";
+    transform: scale(1);
+    transition: all 3s ease-in-out;
+  }
+  label {
+    position: relative;
+    &:after {
+      border: 2px solid theme("colors.primary.600");
+      bottom: 0;
+      transition: all 3s ease-in-out;
+      width: 100%;
+      transform: scale(0);
+    }
+    input,
+    textarea {
+      padding: 0.5rem 1rem;
     }
   }
 }

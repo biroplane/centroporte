@@ -1,3 +1,0 @@
-# Dove siamo
-
-MAPPA

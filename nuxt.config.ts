@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   },
   app: {
     pageTransition: {
-      name: "slide-up",
+      name: "slide-right",
       mode: "in-out",
     },
   },
@@ -48,6 +48,8 @@ export default defineNuxtConfig({
     },
   },
   content: {
+    defaultLocale: "it",
+    locales: ["it", "en"],
     documentDriven: true,
   },
   css: [

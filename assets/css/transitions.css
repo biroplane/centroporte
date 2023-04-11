@@ -39,6 +39,26 @@
   opacity: 0;
 }
 
+.slide-right-enter-active,
+.slide-right-leave-active {
+  position: absolute;
+  width: 100%;
+}
+
+.slide-right-enter-active {
+  transition: all 0.2s ease-out;
+}
+
+.slide-right-leave-active {
+  transition: all 0.2s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-right-enter-from,
+.slide-right-leave-to {
+  transform: translateX(-200px);
+  opacity: 0;
+}
+
 
 
 
