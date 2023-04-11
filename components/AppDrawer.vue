@@ -18,7 +18,7 @@ const close = () => {
   <transition name="curtain">
     <div
       v-if="newVal"
-      class="fixed top-0 right-0 z-50 w-screen h-screen p-4 shadow-xl md:w-96 md:right-0 drawer"
+      class="fixed top-0 right-0 z-50 w-screen h-screen px-8 py-4 shadow-xl md:w-96 md:right-0 drawer"
     >
       <div class="flex mb-12">
         <AppLogo class="flex-grow" />
@@ -27,7 +27,7 @@ const close = () => {
         </button>
       </div>
       <ContentNavigation v-slot="{ navigation }">
-        <ul>
+        <ul class="px-">
           <li v-for="link of navigation" :key="link._path">
             <NuxtLink :to="link._path" @click="close">{{
               link.title

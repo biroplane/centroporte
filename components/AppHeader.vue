@@ -1,14 +1,13 @@
 <script setup>
 const drawer = ref(false);
 const { navigation } = useContent();
-console.log("Navigation", navigation);
 </script>
 <template>
   <header
-    class="w-full h-16 bg-white bg-opacity-10 backdrop-blur fixed z-[999] shadow-xl"
+    class="w-full h-28 bg-primary-900 backdrop-blur fixed z-[999] shadow-xl text-primary-50"
   >
     <div class="container flex items-center justify-between h-full gap-8">
-      <app-logo />
+      <AppLogo />
       <nav class="flex-grow hidden md:block">
         <ul class="flex gap-6">
           <li v-for="nav in navigation" :key="nav._path">
@@ -16,7 +15,7 @@ console.log("Navigation", navigation);
               <NuxtLink :to="nav._path" active-class="active">{{
                 nav.title
               }}</NuxtLink>
-              <ul class="absolute p-4 bg-white shadow-lg">
+              <ul class="absolute p-4 shadow-lg bg-primary-900">
                 <li v-for="child in nav.children" :key="child._id">
                   <NuxtLink
                     :to="child._path"
