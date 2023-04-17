@@ -1,0 +1,33 @@
+---
+id: 1569
+title: 'RIVESTIMENTI IN RENOLIT]'
+
+author:
+  - id: 1
+    name: angelo
+date: 2016-01-29T15:31:43
+modified: 2016-04-12T18:26:24
+slug: rivestimenti-in-renolit
+type: post
+featured: false
+format: standard
+preview: ' MATERIALE RESISTENTE AGLI AGENTI ATMOSFERICI  E AI RAGGI SOLARI ,GRAZIE ALLO STRATO PIU&#8217; ESTERNO COSTITUITO DA POLIMETIMETA CRILICO , CHE &hellip;
+ '
+# categories: 
+#    
+# categorylist: 
+#   [ ]
+# tags: 
+#   
+# taglist: 
+#     []
+# featured_image: 
+
+---
+
+MATERIALE RESISTENTE AGLI AGENTI ATMOSFERICI  E AI RAGGI SOLARI ,GRAZIE ALLO STRATO PIU&#8217; ESTERNO COSTITUITO DA POLIMETIMETA CRILICO , CHE PERMETTE IL RAGGIUNGIMENTO DI TEMPERATURE PIU&#8217; ELEVATE
+[:en]
+RESISTANT To WEATHERING And Uv Rays, THANKS To The Outermost Layer CONSISTS Of POLIMETIMETA CRILICO, Which ALLOWS The ATTAINMENT Of Higher TEMPERATURES
+
+[:]
+
