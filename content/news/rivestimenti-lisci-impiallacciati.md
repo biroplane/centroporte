@@ -1,0 +1,34 @@
+---
+id: 1567
+title: 'RIVESTIMENTI LISCI IMPIALLACCIATI]'
+
+author:
+  - id: 1
+    name: angelo
+date: 2016-01-29T15:31:29
+modified: 2016-04-05T22:03:18
+slug: rivestimenti-lisci-impiallacciati
+type: post
+featured: false
+format: standard
+preview: '  RIVESTIMENTI DI LEGNO , DISPONIBILI IN VARIE ESSENZE , OGNUNA DELLE QUALI HA DELLE CARATTERISTICHE PARTICOLARI .ESSI SONO DI &hellip;
+ '
+# categories: 
+#    
+# categorylist: 
+#   [ ]
+# tags: 
+#   
+# taglist: 
+#     []
+# featured_image: 
+
+---
+
+
+RIVESTIMENTI DI LEGNO , DISPONIBILI IN VARIE ESSENZE , OGNUNA DELLE QUALI HA DELLE CARATTERISTICHE PARTICOLARI .ESSI SONO DI LEGNI PREGIATI ,PER UNA BASE LISCIA .
+[:en]
+WOOD MANTELS ARE AVAILABLE IN VARIOUS WOOD TYPES, EACH OF WHICH HASPARTICULAR CHARACTERISTICS. THEY ARE OF FINE WOODS, FOR A SMOOTH BASE.
+
+[:]
+
